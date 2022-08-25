@@ -1,3 +1,3 @@
 # MADPractical2_20012011013
-![image](https://user-images.githubusercontent.com/98973295/186718875-4b171efc-3535-4f0e-b02f-22631073e188.png)
-![image](https://user-images.githubusercontent.com/98973295/186718919-d3173b6a-87d2-4e21-942e-e4e7a90ddf34.png)
+![image](https://user-images.githubusercontent.com/98973295/186729991-1b421e78-57d8-41de-a98a-d8068a5538ff.png)
+![image](https://user-images.githubusercontent.com/98973295/186730057-60b6d570-f6d0-4038-9718-d86ba02605fc.png)
