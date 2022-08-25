@@ -29,6 +29,12 @@ class MainActivity : AppCompatActivity() {
         Snackbar.make(mycl,"onResume function called.",Snackbar.LENGTH_LONG).show()
     }
 
+    override fun onPause() {
+        super.onPause()
+        Log.i(TAG, "onPause function called. ")
+        Toast.makeText(this, "onPause function called.", Toast.LENGTH_SHORT).show()
+        Snackbar.make(mycl,"onPause function called.",Snackbar.LENGTH_LONG).show()
+    }
     override fun onStop() {
         super.onStop()
         Log.i(TAG, "onStop function called. ")
@@ -48,5 +54,12 @@ class MainActivity : AppCompatActivity() {
         Log.i(TAG, "onRestart function called. ")
         Toast.makeText(this, "onRestart function called.", Toast.LENGTH_SHORT).show()
         Snackbar.make(mycl,"onRestart function called.",Snackbar.LENGTH_LONG).show()
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.i(TAG, "onDestroy function called. ")
+        Toast.makeText(this, "onDestroy function called.", Toast.LENGTH_SHORT).show()
+        Snackbar.make(mycl,"onDestroy function called.",Snackbar.LENGTH_LONG).show()
     }
 }
